@@ -1,0 +1,45 @@
+\documentclass[a4paper]{article}
+\usepackage{amsmath}
+\title{Explanation Day 24}
+\author{kylynnx}
+\date{}
+
+\begin{document}
+    \maketitle
+
+    Let us denote the coordinates of an arbitrary hailstone $i$ by $x^i$, $y^i$, and $z^i$, further let $v_x^i$,
+    $v_y^i$, and $v_z^i$ be the respective velocity.
+    Coordinates with no index $i$ will denote the coordinates of the stone, we need to throw.
+    Then, the following equations need to be fulfilled for the stone to hit the hailstone
+    \begin{eqnarray*}
+        x^i + t v_x^i & = & x + t v_x \\
+        y^i + t v_y^i & = & y + t v_y \\
+        z^i + t v_z^i & = & z + t v_z.
+    \end{eqnarray*}
+
+    Solving for the time, leaves us with
+    \begin{eqnarray*}
+        t & = & \left(x - x^i\right) \left(v_x^i - v_x\right)^{-1} \\
+        t & = & \left(y - y^i\right) \left(v_y^i - v_y\right)^{-1} \\
+        t & = & \left(z - z^i\right) \left(v_z^i - v_z\right)^{-1}.
+    \end{eqnarray*}
+
+    Equating two of these and simple manipulations, will end up as
+    \begin{equation*}
+        y v_x - x v_y = -x v_y^i + y v_x^i + y^i v_x - x^i v_y + x^i v_y^i - y^i v_x^i.
+    \end{equation*}
+
+    The LHS is independent of $t$ and the index $i$.
+    Repeating the same procedure for another arbitrary $k \neq i$, and equating, leaves
+    \begin{equation*}
+        \left(v_y^i - v_y^k\right) x + \left(v_x^k - v_x^i\right) y + \left(y^k - y^i\right) v_x + \left(x^i - x^k\right) v_y
+        = x^i v_y^i - x^k v_y^k + y^k v_x^k - y^i v_x^i
+    \end{equation*}
+
+    This is one equation with six unknowns.
+    Taking into account the two other combinations of coordinates $\left(\left(x, z\right), \left(y, z\right)\right)$
+    produces three equations with three unknowns.
+    Last step is to find another hailstone $l \neq i,k$ gives us three more equations.
+    Now solve using your favorite solver.
+
+\end{document}

@@ -1,0 +1,5 @@
+Dijkstar
+sympy
+networkx
+pillow
+pyfiglet

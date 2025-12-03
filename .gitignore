@@ -1,0 +1,10 @@
+.idea/
+*/__pycache__
+*.aux
+*.log
+*.pdf
+*.synctex
+*.synctex.gz
+
+.aoc_tiles/*
+!.aoc_tiles/tiles/
