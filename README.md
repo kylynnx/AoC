@@ -1,7 +1,46 @@
 <!-- AOC TILES BEGIN -->
 <h1 align="center">
-  Advent of Code - 231/506 ⭐
+  Advent of Code - 255/524 ⭐
 </h1>
+<h1 align="center">
+  2025 - 24 ⭐ - Python
+</h1>
+<a href="2025/01/solution.py">
+  <img src=".aoc_tiles/tiles/2025/01.png" width="161px">
+</a>
+<a href="2025/02/solution.py">
+  <img src=".aoc_tiles/tiles/2025/02.png" width="161px">
+</a>
+<a href="2025/03/solution.py">
+  <img src=".aoc_tiles/tiles/2025/03.png" width="161px">
+</a>
+<a href="2025/04/solution.py">
+  <img src=".aoc_tiles/tiles/2025/04.png" width="161px">
+</a>
+<a href="2025/05/solution.py">
+  <img src=".aoc_tiles/tiles/2025/05.png" width="161px">
+</a>
+<a href="2025/06/solution.py">
+  <img src=".aoc_tiles/tiles/2025/06.png" width="161px">
+</a>
+<a href="2025/07/solution/__init__.py">
+  <img src=".aoc_tiles/tiles/2025/07.png" width="161px">
+</a>
+<a href="2025/08/solution.py">
+  <img src=".aoc_tiles/tiles/2025/08.png" width="161px">
+</a>
+<a href="2025/09/solution/__init__.py">
+  <img src=".aoc_tiles/tiles/2025/09.png" width="161px">
+</a>
+<a href="2025/10/solution/__init__.py">
+  <img src=".aoc_tiles/tiles/2025/10.png" width="161px">
+</a>
+<a href="2025/11/solution.py">
+  <img src=".aoc_tiles/tiles/2025/11.png" width="161px">
+</a>
+<a href="2025/12/solution.py">
+  <img src=".aoc_tiles/tiles/2025/12.png" width="161px">
+</a>
 <h1 align="center">
   2023 - 50 ⭐ - Python
 </h1>
